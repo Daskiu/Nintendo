@@ -1,0 +1,387 @@
+body {
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(71, 71, 71);
+    margin: 0%;
+}
+.MENU{
+    background-color: aliceblue;
+}
+.menuBar {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+.inputDiv {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: fit-content;
+}
+.divLanding {
+    background-color: rgb(224, 16, 16);
+    width: 100%;
+    height: 540px;
+    margin-bottom: 190px;
+}
+.imgInput {
+    width: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+#input {
+    margin-right: 10px;
+    width:320px;
+    border: 0;
+}
+#textInput {
+    width: auto;
+    margin: 0;
+    display: flex;
+}
+
+.menuBarIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    width: fit-content;
+
+}
+
+
+.menuBarIconsDiv {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 10px;
+}
+
+.imgMenuBar {
+    width: 20px;
+
+}
+
+.barDownDiv {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.barDown {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+.imgBarDown {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#imgLanding{
+    position: absolute;
+    width: 95%;
+    display: flex;
+    left: 50px;
+    top: 150px;
+    margin: auto;
+}
+.horaButton{
+    display: flex;
+    margin-left: 2.5%;
+    width: 800px;
+    align-items: center;
+    margin-top: 30px;
+}
+.horaButton2{
+    display: flex;
+    margin-left: 15%;
+    width: 800px;
+    align-items: center;
+    margin-top: 30px;
+}
+.button{
+    background-color: rgb(224, 16, 16);
+    font-size:x-large;
+    border-radius: 0.6em;
+    width: 300px;
+    border: none;
+    color: aliceblue;
+    height: 50px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tittle {
+    margin-left: 15%;
+}
+.imgMid{
+    margin-left: 15%;
+    display: flex;
+    width: 70%;
+}
+.sellTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.subTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    color:  rgb(224, 16, 16);
+    font-size: medium;
+
+}
+
+.HighCard{
+    position: relative;
+    border: 0.3px solid rgb(159, 159, 159);
+    width: 270px;
+    height: 280px;
+    background-color:aliceblue;
+    margin-left: 40px;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+.imgH{
+    width: 270px;
+    border-radius: 5px;
+}
+
+.textHighCard{
+    margin: 20px;
+}
+
+.BestSellerCard{
+    position: relative;
+    border: 0.3px solid rgb(159, 159, 159);
+    width: 270px;
+    height: 310px;
+    background-color:aliceblue;
+    margin-left: 40px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.releaseCard{
+    position: relative;
+    border: 0.3px solid rgb(159, 159, 159);
+    width: 270px;
+    height: 350px;
+    background-color:aliceblue;
+    margin-left: 40px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.imgBS{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+.textBSCard{
+    margin: 20px;
+}
+.redHeart{
+    width: 22px;
+    height: 22px;
+    margin-top: 0 ;
+    margin-left: 100px;
+}
+
+.NinHeart{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    bottom: 10px;
+}
+
+.textHeart{
+    margin: 0%;
+}
+
+.BSCardInter{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.textRed{
+    background-color: rgb(224, 16, 16);
+    color:aliceblue;
+    width: 40px;
+    border-radius: 0.2em;
+    padding: 3px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.characterDiv {
+    position: relative;
+    width: 275px;
+    background-color: transparent;
+    margin: 15px;
+
+}
+
+.imgC {
+    width: 275px;
+    border-radius:  0.3em;
+    background-image: url("/img/imgFondo.png");
+}
+.textC{
+    margin-top: 10px;
+}
+
+.newBigCard{
+    position: relative;
+    width: 580px;
+    height: 540px;
+    background-color:aliceblue;
+    margin-left: 40px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.imgNB {
+    width: 580px;
+    border-radius:  0.3em;
+}
+
+.subTitleNB{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:  rgb(224, 16, 16);
+    font-size: medium;
+    margin: 0%;
+    bottom: 1px;
+
+
+}
+
+.newSmallCard{
+    position: relative;
+    width: 275px;
+    height: 350px;
+    background-color:aliceblue;
+    margin-left: 40px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.imgNS{
+    width: 275px;
+    border-radius:  0.3em;
+}
+
+.buttonImg {
+    background-color: rgb(224, 16, 16);
+    border-radius: 0.6em;
+    border: none;
+    color: aliceblue;
+    height: 50px;
+    margin-left: 15%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: smaller;
+    justify-content: center;
+    margin-top: 30px;
+}
+#imgButton{
+    width: 35px;
+    margin-right: 10px;
+}
+#espace{
+    margin-left: 26%;
+}
+
+.highlightSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow-y: auto;
+}
+
+.bestSellerSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow-y: auto;
+    justify-content: center;
+}
+.newReleaseSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.newBigSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+
+.newSmallSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.characterSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+}
+
+.finalImg{
+    width: 100%;
+    margin-top: 30px;
+}
+
+#finalImg{
+    width: 100%;
+    margin-top: 100px;
+}
